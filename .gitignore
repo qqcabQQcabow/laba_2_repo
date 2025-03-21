@@ -1,0 +1,37 @@
+# Игнорируем каталоги сборки и временные файлы
+build/
+third_party/
+build_test/
+build_stend/
+admin_maker/build
+tests/**/build/
+tests/testVisitOne/.ccls-cache/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.dSYM/
+
+# Игнорируем SDK и сторонние библиотеки
+SDK_DOUBANGO/
+
+# Игнорируем логи и кэш
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Игнорируем файлы IDE
+.vscode/
+.idea/
+.cache/
+.ccls-cache/
+*.code-workspace
+*.sublime-workspace
+compile_commands.json
+.clang-tidy
